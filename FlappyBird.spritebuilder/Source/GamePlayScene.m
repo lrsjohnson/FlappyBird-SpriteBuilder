@@ -17,4 +17,9 @@
 
 // put new methods here
 
+-(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    // Caled when the user touches the screen
+    [character flap];
+}
+
 @end
